@@ -1,0 +1,183 @@
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Code For Life</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="../index.html">VJS Pranav</a></h1>
+						<nav class="links">
+							<ul>
+								<li><a href="#">Java</a></li>
+								<li><a href="#">C/C++</a></li>
+								<li><a href="#">Python</a></li>
+								<li><a href="#">Linux</a></li>
+								<li><a href="#">Misc</a></li>
+							</ul>
+						</nav>
+						<nav class="main">
+							<ul>
+								<li class="search">
+									<a class="fa-search" href="#search">Search</a>
+									<form id="search" method="get" action="#">
+										<input type="text" name="query" placeholder="Search" />
+									</form>
+								</li>
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+
+						<!-- Search -->
+							<section>
+								<form class="search" method="get" action="#">
+									<input type="text" name="query" placeholder="Search" />
+								</form>
+							</section>
+
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="../about.html">
+											<h3>About</h3>
+											<p>How did this come up</p>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<h3>Programming</h3>
+											<p>Getting started</p>
+										</a>
+									</li>
+									<li>
+										<a href="../working.html">
+											<h3>Breakdown</h3>
+											<p>Website breakdown</p>
+										</a>
+									</li>
+									<li>
+										<a href="../animated/index.html">
+											<h3>Misc</h3>
+											<p>Click if You're bored</p>
+										</a>
+									</li>
+								</ul>
+							</section>
+						</section>
+
+
+				<!-- Main -->
+					<div id="main">
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="#">Getting Started</a></h2>
+										<p>Hello World</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2020-02-10">March 17, 2020</time>
+										<a href="#" class="author"><span class="name">VJS Pranavasri</span><img src="../images/vjs.jpg" alt="" /></a>
+									</div>
+								</header>
+								<p>C , one of the fastest programming language out there, would be great addition to your skill set. For <i>what is C?</i> <i>What is Procedural Programming</i> etc, you've got the whole internet.The following takes on a practical approach with references linked wherever neccessary.</br></p>
+								<p><h2><b>Pre-Requisites:</b>(I would Cover for Windows/Linux)</p></h2>
+								<p>If you are using windows and it's your first time i'd strongly recommend you install <a href="https://sourceforge.net/projects/orwelldevcpp/files/latest/download">Dev-C++</a>, Best place to start.</p>
+								<p>(<b>OR</b>)</p>
+								<p>If you are using linux make sure you have GCC installed.</p>
+								<p>For Ubuntu</p>
+								<p><code>sudo apt-get install gcc</code></p>
+                                                                <p>For Arch/Manjaro</p>  
+                                                                <p><code>pacman -Sy gcc</code></p>  
+								<p>You'd find the respective commands for your distro Just <i>google</i> it.</p>
+								<h3>NOTE</h3>
+								<hr />
+								<blockquote>I'll put this up in the very beginning, In programming one of the most important thing is to know how to google
+	remember: A programmers google search and a normal persons google search is different and that is what sets us apart
+	Stack Overflow is your best friend (Trust Me).</blockquote>
+								<hr />
+								<p><i>If the above points go over your head don't worry, Just re read them after a couple of pages.</i></p>
+								<p>All the formalities aside let's write our very first code:</p>
+								<pre><code>#include<</>stdio.h>
+void main(){
+	printf("Hello World!!");
+}
+								</code></pre>
+								<p>Yes We follow the stereo type and hence Hello World is our very first code</p>
+								<p>Now let's try to break down our code shall we. So irrespective of whichever C code you write you have that first line on the top</br><code>#include<</>stdio.h></code></br>In terms of C language this is called a <i>header file</i>.</p>
+								<p>You would not want go sit coding all the basic things now would you. therefore the header file stdio, which directly translates to standard input output, has all the necessary codes that help you for giving some output, getting anything as input so on and so forth.</br></p>
+								<p>so now for some bigger terms, you absolutely don't need to worry if you don't understand any of the following I didn't really either till i started writing some codes myself.</p>
+								<p>So void main(){} this is a function declaration. A function is a piece of code encapsulated in a single word,
+	in simple terms in this case the name of our function is main, and whenever you write main in your code all the code in btween { and } will be run. That's an abstract view of it we'll understand functions perfectly when we go to the topic dealing with it.
+	For now we just need to remember in our C code we always need a main function as that is thhe point at which the code starts execution.</p>
+								<blockquote>so what is void?? Oo sounds cool right, Just a bit of patience and You'll Know :).</blockquote>
+								<p>';' is very important at the end of every line else you'd end up with hell loads of errors
+								<blockquote>For People coming from python We don't have indentations here and line breaks are denoted by ';'</blockquote>
+								<p>Right i Hope so far so good.</br>so anything that has rounded brackets (paranthesis) would be a function most of the times, Sounds good?</br>Cool so notice the printf line we used.</br><code>printf("Hello World!!")</code></br>
+	so printf has a set of '()' so it is a function so whenever we do printf a set of lines of code written somewhere start executing, makes sense right?
+	So where is that somewhere, HMM? Remember the stdio.h file yep that is where. So what exactly does it do, it outputs whatever you give it.
+	Therefore the above code would out put Hello World!!</p>
+								<p>One Final thing before we finally run our code, How does it run?
+	In C there is this thing called a compile, so what does it do.
+	The code which you have written is closer to human language whereas as we all know computers only understand binary
+	that is 0 and 1. So obviously you'd not want to do that transformation.
+	Compiler is something that does it for you and creates a exe file which you can run.</p>
+								<p>Ok Cool We're all done Now let's compile.</p>
+								<p><span class="image right"><img src="../images/devcpp_compile.jpg" alt="" /></span><h3>Windows</h3></br>as you have written the code in a dev-c++ new file save that file with .c extension
+		there will be an option that says compile and run (In the toolbar above Execute-> Compile and Run)</br></br></br></br></br></br></p>
+								<p><span class="image right"><img src="../images/linux_compile.jpg" alt="" /></span><h3>Linux</h3>cd into the directory where you have your file saved. (.c extension don't forget)
+		command to compile : gcc filename.c -o executable
+		now you run it by doing ./executable
+		(Where your executable is any name that you've set just as the image shown below)</p>
+							<footer>
+									<ul class="stats">
+										<li><a href="#">General</a></li>
+										<li><a href="#" class="icon solid fa-heart"></a></li>
+										<li><a href="#" class="icon solid fa-comment"></a></li>
+									</ul>
+								</footer>
+							</article>
+					</div>
+
+						<!-- Footer -->
+							<section id="footer">
+								<ul class="icons">
+ 										<li><a href="https://twitter.com/vjspranavasri" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.facebook.com/Pranavasrivjs" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="https://www.instagram.com/pranavasrivjs/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://t.me/vjspranav" class="icon solid fa-rss"><span class="label">Telegram</span></a></li>
+									<li><a href="mailto:pranavasri@live.in?subject=Mailing from your website" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+								</ul>
+								<p class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
+							</section>
+					</section>
+
+			</div>
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>
